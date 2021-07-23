@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Sonar') {
            steps {
-               sh 'mvn verify sonar:sonar -Dsonar.projectKey=alansastre_m3-01-maven -Dsonar.organization=alansastre -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=6136e70b0e12ca0541d807cc501786ada66ec2cf -Dsonar.branch.name=master'
+               sh 'mvn verify sonar:sonar -Dsonar.projectKey-arantzalemasurier_m3-01-maven-clase -Dsonar.organization-arantzalemasurier -Dsonar.hot.url-https://sonarcloud.io -Dsonar.login-6f9803ce0c72d98ab5158ad604c3b44c51ae9dd5 -Dsonar.branch.name-master'
            }
         }
     }
